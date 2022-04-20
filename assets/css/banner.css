@@ -1,0 +1,67 @@
+.content-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0a47f0;
+    width: 100%;
+    overflow: hidden;
+}
+.content-banner .banner {
+    height: 112px;
+    width: 100%;
+    background-image: url(../image/svg/banner-blue.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.banner .left {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 32px;
+    padding-top: 16px;
+}
+.banner .right {
+    display: inline-block;
+    vertical-align: top;
+}
+.noMoney {
+    padding-top: 38px;
+    padding-left: 24px;
+}
+.noMoney p{
+    font-family: "flexodemi";
+    color: #ffffff;
+    font-size: 24px !important;
+    line-height: 1.33;
+}
+.hide {
+    display: none !important;
+}
+.view {
+    display: inline-block !important;
+}
+.cardDenominacion {
+    display: inline-block;
+    padding-left: 24px;
+    font-family: "flexobold";
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 1.25;
+}
+.bannerDenominacion {
+    display: inline-block;
+}
+.title-banner {
+    padding-left: 24px;
+    padding-bottom: 6px;
+}
+.title-banner p {
+    font-family: "flexodemi";
+    font-size: 20px !important;
+    line-height: 1.4;
+    color: #ffffff;
+}
+.bannerMoney {
+    padding-top: 17px;
+}

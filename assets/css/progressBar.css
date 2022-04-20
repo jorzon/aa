@@ -1,0 +1,48 @@
+.content-progress {
+    position: relative;
+    background: #f3efe6;
+    overflow: hidden;
+    width: 412px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #d8dfea;
+}
+
+.content-progress span {
+    display: block;
+    height: 100%;
+}
+.progress {
+    background-color: #002a8d;
+    animation: progressBar 2s ease-in-out;
+    animation-fill-mode: both;
+    -webkit-animation: progressBar 2s ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -moz-animation: progressBar 2s ease-in-out;
+    -moz-animation-fill-mode: both;
+}
+@keyframes progressBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@-webkit-keyframes progressBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@-moz-keyframes progressBar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

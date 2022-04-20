@@ -1,0 +1,295 @@
+/* modal timeout */
+.kiosko-modal {
+  width: 532px;
+  height: 328px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999999;
+}
+
+.kiosko-modal-w-560 {
+  width: 560px !important;
+}
+
+.kiosko-modal-h-360 {
+  height: 360px !important;
+}
+
+.kiosko-modal-h-56 {
+  height: 56px !important;
+}
+
+.kiosko-modal header {
+  position: relative;
+}
+.kiosko-modal .content .title span {
+  font-size: 32px;
+  line-height: 1.25;
+  color: #002a8d;
+  font-family: "flexobold";
+}
+.kiosko-modal .content .subtitle {
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202e44;
+  margin-top: 24px;
+  font-family: "flexodemi";
+}
+
+.kiosko-modal-margin-bottom-40 {
+  margin-bottom: 40px !important;
+}
+
+.kiosko-modal-margin-top-32 {
+  margin-top: 32px !important;
+}
+.kiosko-modal-bottom-57 {
+  bottom: 57px !important;
+}
+
+.kiosko-modal .content .subtitleTwo {
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #202e44;
+  margin-top: 16px;
+  font-family: "flexodemi";
+}
+.kiosko-modal .modal-buttons {
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  z-index: 999;
+  bottom: 0px;
+}
+
+.kiosko-modal.modal-timeout .modal-buttons .btnCloseSession {
+  border-radius: 50px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.45);
+  border: solid 2px #ff7800;
+  background-color: #ff7800;
+  font-size: 24px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  line-height: 72px;
+  position: absolute;
+  right: 32px;
+  bottom: 40px;
+  font-family: "flexobold";
+  cursor: pointer;
+  text-decoration: none;
+  width: 222px;
+  height: 72px;
+  box-shadow: 0 5px 5px -3px rgba(82, 112, 148, 0.2), 0 3px 14px 2px rgba(82, 112, 148, 0.12), 0 8px 10px 1px rgba(82, 112, 148, 0.14);
+}
+
+.kiosko-modal.modal-timeout .modal-buttons .btnBack {
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 24px;
+  letter-spacing: normal;
+  text-align: center;
+  line-height: 72px;
+  position: absolute;
+  left: 32px;
+  bottom: 40px;
+  font-family: "flexobold";
+  cursor: pointer;
+  text-decoration: none;
+  width: 222px;
+  height: 72px;
+  border: solid 2px #acb2bd;
+  box-shadow: 0 8px 10px -5px rgba(82, 112, 148, 0.2), 0 6px 30px 5px rgba(82, 112, 148, 0.12), 0 16px 24px 2px rgba(82, 112, 148, 0.14);
+  color: #606c7f;
+}
+
+.kiosko-modal .content .remaining-time {
+  text-align: center;
+  font-size: 22px;
+  color: #717171;
+}
+.kiosko-modal .content {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.kiosko-modal-padding-top {
+  padding-top: 56px !important;
+}
+
+.backdrop,
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.1s opacity linear;
+  transition: 0.1s opacity linear;
+}
+
+.backdrop.visible,
+.modal-backdrop.visible {
+  visibility: visible;
+}
+
+.modal-backdrop.active {
+  opacity: 1;
+  z-index: 9999;
+}
+.backdrop.active {
+  opacity: 1;
+  z-index: 99999;
+}
+
+/* modal general */
+
+.modal-window.show {
+  display: block;
+}
+.ksk-modal {
+  z-index: 10000;
+}
+.modal-window > .modal-dialog {
+  z-index: 10000;
+}
+/* modal kiosko boostrap */
+.kiosko-modal-footer.modal-footer {
+  padding: 0;
+  align-items: flex-end;
+  border: 0;
+}
+.kiosko-modal-body {
+  height: 100%;
+  padding: 47px 0;
+}
+.kiosko-body-content {
+  max-height: 300px !important;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.1s opacity linear;
+  transition: 0.1s opacity linear;
+}
+/* .modal-backdrop.visible {
+    visibility: visible;
+} */
+
+/* .modal-backdrop.active {
+    opacity: 1;
+    z-index: 9999;
+} */
+.modal-window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+}
+.modal-window {
+  text-align: center;
+}
+.modal-window-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+.modal--window-custom .modal-window-content {
+  overflow: hidden;
+  border: 0;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.modal-window .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+}
+.modal-window:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -6px;
+}
+.modal-window .close {
+  background: #fff !important;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  margin-left: auto;
+  float: right;
+}
+.modal-window .kiosko-modal-header {
+  padding: 16px;
+}
+.modal-window .title {
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #202e44;
+  font-family: "flexodemi";
+}
+.modal-window .ksk-card.ksk-ticket {
+  width: 186px;
+  padding: 10px 40px 10px 18px;
+}
+.modal-window .ksk-card-button {
+  width: 27px;
+}
+.kiosko-body-footer .btn-primary {
+  height: 72px;
+  border-radius: 50px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.45);
+  border: solid 2px #ff7800;
+  background-color: #ff7800;
+  line-height: 1.42;
+  font-size: 24px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  font-family: "flexobold";
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}

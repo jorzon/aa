@@ -1,0 +1,153 @@
+.card {
+  border-radius: 16px;
+  
+  cursor: pointer;
+}
+.card h3:after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #002a8d;
+  margin-top: 15px;
+}
+.card .card-subTitle:after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #002a8d;
+  margin-top: 15px;
+}
+.card-big-light-blue {
+  background-color: #0a47f0;
+}
+
+.card-new-light-blue img:nth-child(2) {
+  display: none;
+}
+
+.card-new-light-blue.activeCard img:nth-child(2) {
+  display: block !important;
+}
+
+.card-new-light-blue.activeCard img:first-child {
+  display: none;
+}
+
+.card-big-light-blue .line:after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+.card-medium-orange {
+  background-color: #ff7800;
+}
+.card-medium-orange .line:after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+.card-medium-blue .line:after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+.card-medium-blue {
+  background-color: #002a8d;
+}
+
+.card-medium-disabled {
+  background-color: #eff0f2;
+  border: none !important;
+}
+
+.card-big-white {
+  background-color: #ffffff;
+  border: solid 2px #d8dfea;
+  box-shadow: none !important;
+}
+
+
+/* estilos del card con fondo blanco con un icon */
+
+.card-white {
+  background-color: #ffffff;
+  color: #002a8d;
+  cursor: pointer;
+}
+.card-white .line:after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #002a8d;
+  margin-top: 15px;
+}
+.card-white img:nth-child(2) {
+  display: none;
+}
+.card-white.activeCard img:first-child {
+  display: none;
+}
+.card-white.activeCard img:nth-child(2) {
+  display: block !important;
+}
+
+/*----------Actives---------*/
+
+/* .card:active {
+  background-color: #ff7800;
+  color: #ffffff !important;
+  box-shadow: none;
+  transform: translateY(-1.5%);
+  border: none;
+} */
+
+/* .card:active .color-orange {
+  color: #ffffff !important;
+}
+
+.card:active .color-primary-dark {
+  color: #ffffff !important;
+}
+
+.card:active p:after {
+  background-color: #ffffff !important;
+} */
+
+/* agregar la clase active para los card */
+.card.activeCard {
+  background-color: #ff7800;
+  color: #ffffff !important;
+  box-shadow: none;
+  transform: translateY(-1.5%);
+  border: none !important;
+}
+
+.card.activeCard .color-orange {
+  color: #ffffff !important;
+}
+
+.card.activeCard .color-primary-dark {
+  color: #ffffff !important;
+}
+
+.card.activeCard p:after {
+  background-color: #ffffff !important;
+}

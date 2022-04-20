@@ -1,0 +1,442 @@
+/* INSERTA TU TARJETA */
+#content-lottie-insertaTarjeta {
+  width: 600px;
+  padding-top: 50px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 32px;
+}
+
+#content-lottie-insertaTarjeta #lottie {
+  width: 540px;
+  height: 500px;
+  margin-left: 90px;
+}
+
+/*INSETAR TARJETA TIPO 2*/
+#content-lottie-insertaTarjeta-tipo-2 {
+  width: 600px;
+  padding-top: 50px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 32px;
+}
+
+#content-lottie-insertaTarjeta-tipo-2 #lottie-insert-card {
+  width: 540px;
+  height: 500px;
+  margin-left: 90px;
+}
+
+
+/*ICONO ERROR*/
+#content-lottie-error{
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: -38px;
+  left: 40px;
+}
+
+#content-lottie-error #lottie{
+  width: 110px;
+  height: 110px;
+}
+
+
+
+
+
+
+
+/* NFC */
+#content-lottie-nfc {
+  overflow: hidden;
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+}
+#content-lottie-nfc #lottie {
+  width: 437px;
+  height: 480px;
+}
+/* DISPENSANDO */
+#content-lottie-dispensando {
+  overflow: hidden;
+}
+
+#content-lottie-dispensando #lottie {
+  width: 488px;
+  height: 384px;
+}
+
+/* DISPENSANDO DOLARES */
+#content-lottie-dispensando-dolares-new {
+  overflow: hidden;
+}
+
+#content-lottie-dispensando-dolares-new #lottie-entrega-dinero-dolares-new {
+  width: 488px;
+  height: 384px;
+}
+
+
+/* RETIRO DE EFECTIVO */
+#content-lottie-retirarEfectivo {
+  overflow: hidden;
+}
+
+#content-lottie-retirarEfectivo #lottie {
+  width: 430px;
+  height: 568px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* RETIRO DE EFECTIVO DOLARES */
+#content-lottie-retirarEfectivo-dolares {
+  overflow: hidden;
+}
+
+#content-lottie-retirarEfectivo-dolares #lottie-dolares-new {
+  width: 430px;
+  height: 568px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+/* RETIRO DE TARJETA */
+#content-lottie-retirarTarjeta {
+  overflow: hidden;
+}
+
+#content-lottie-retirarTarjeta #lottie {
+  width: 370px;
+  height: 598px;
+}
+
+/* ***************************
+**** DEPOSITO CON  TARJETA ****
+******************************/
+
+/* INSERTE BILLETES MULTIFUNCION */
+#content-lottie-inserteBilletesMultifuncion {
+  overflow: hidden;
+}
+#content-lottie-inserteBilletesMultifuncion #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* INSERTE BILLETES MULTIFUNCION SOLES */
+#content-lottie-inserteBilletesMultifuncionSoles {
+  overflow: hidden;
+}
+#content-lottie-inserteBilletesMultifuncionSoles #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* INSERTE BILLETES MULTIFUNCION DOLARES */
+#content-lottie-inserteBilletesMultifuncionDolares {
+  overflow: hidden;
+}
+#content-lottie-inserteBilletesMultifuncionDolares #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* INSERTE BILLETES RECICLADOR */
+#content-lottie-inserteBilletesReciclador {
+  overflow: hidden;
+}
+#content-lottie-inserteBilletesReciclador #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* INSERTE BILLETES RECICLADOR SOLES */
+#content-lottie-inserteBilletesRecicladorSoles {
+  overflow: hidden;
+}
+#content-lottie-inserteBilletesRecicladorSoles #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* INSERTE BILLETES RECICLADOR  DOLARES*/
+#content-lottie-inserteBilletesRecicladorDolares {
+  overflow: hidden;
+}
+#content-lottie-inserteBilletesRecicladorDolares #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+
+/* INSERTE BILLETES RECICLADOR  DOLARES NUEVO*/
+#content-lottie-inserteBilletesRecicladorDolares-new {
+  overflow: hidden;
+}
+#content-lottie-inserteBilletesRecicladorDolares-new #lottie-new {
+  width: 470px;
+  height: 550px;
+}
+
+
+
+
+/* ***************************
+**** DEPOSITO SIN TARJETA ****
+******************************/
+
+/* INSERTE BILLETES RECICLADOR SOLES SIN TARJETA */
+#content-lottie-insert-bills-recycler-no-card-pen {
+  overflow: hidden;
+}
+#content-lottie-insert-bills-recycler-no-card-pen #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* INSERTE BILLETES RECICLADOR DOLARES SIN TARJETA */
+#content-lottie-insert-bills-recycler-no-card-dolares {
+  overflow: hidden;
+}
+#content-lottie-insert-bills-recycler-no-card-dolares #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* INSERTE BILLETES MULTIFUNCION SOLES SIN TARJETA */
+#content-lottie-insert-bills-multifunction-no-card-pen {
+  overflow: hidden;
+}
+#content-lottie-insert-bills-multifunction-no-card-pen #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* INSERTE BILLETES MULTIFUNCION DOLARES SIN TARJETA */
+#content-lottie-insert-bills-multifunction-no-card-dolar {
+  overflow: hidden;
+}
+#content-lottie-insert-bills-multifunction-no-card-dolar #lottie {
+  width: 470px;
+  height: 550px;
+}
+
+/* *******************************
+**** FIN DEPOSITO SIN TARJETA ****
+**********************************/
+
+/* RETIRA COMPROBANTE */
+#content-lottie-retirarComprobante {
+  overflow: hidden;
+}
+
+#content-lottie-retirarComprobante #lottie {
+  width: 370px;
+  height: 598px;
+}
+
+/* IDENTIFICAR EL DEDO CORRESPONDIENTE */
+#content-lottie-selecciona-dedo {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  height: 750px;
+}
+#content-lottie-selecciona-dedo #pulgar-derecho,
+#content-lottie-selecciona-dedo #indice-derecho,
+#content-lottie-selecciona-dedo #medio-derecho,
+#content-lottie-selecciona-dedo #anular-derecho,
+#content-lottie-selecciona-dedo #menique-derecho {
+  height: 750px;
+  width: 1000px;
+}
+#content-lottie-selecciona-dedo #pulgar-izquierdo,
+#content-lottie-selecciona-dedo #indice-izquierdo,
+#content-lottie-selecciona-dedo #medio-izquierdo,
+#content-lottie-selecciona-dedo #anular-izquierdo,
+#content-lottie-selecciona-dedo #menique-izquierdo {
+  height: 750px;
+  width: 1000px;
+}
+
+/* UBICA EL LECTOR */
+#content-lottie-ubica-lector {
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+#content-lottie-ubica-lector #lottie {
+  width: 650px;
+  height: 600px;
+}
+
+/* UBICA EL LECTOR IZQUIERDO*/
+#content-lottie-lector-izquierdo {
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+#content-lottie-lector-izquierdo #lottie {
+  width: 650px;
+  height: 600px;
+}
+
+/* UBICA EL LECTOR IZQUIERDO DN 200*/
+#content-lottie-lector-izquierdo-dn-200 {
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+#content-lottie-lector-izquierdo-dn-200 #lottie {
+  width: 650px;
+  height: 600px;
+}
+
+/* UBICA  */
+.content-lottie-colocar-dedo {
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+.content-lottie-colocar-dedo #pulgar-derecho,
+.content-lottie-colocar-dedo #indice-derecho,
+.content-lottie-colocar-dedo #medio-derecho,
+.content-lottie-colocar-dedo #anular-derecho,
+.content-lottie-colocar-dedo #menique-derecho {
+  width: 650px;
+  height: 600px;
+}
+.content-lottie-colocar-dedo #pulgar-izquierdo,
+.content-lottie-colocar-dedo #indice-izquierdo,
+.content-lottie-colocar-dedo #medio-izquierdo,
+.content-lottie-colocar-dedo #anular-izquierdo,
+.content-lottie-colocar-dedo #menique-izquierdo {
+  width: 650px;
+  height: 600px;
+}
+
+.content-lottie-colocar-dedo #pulgar-derecho-second,
+.content-lottie-colocar-dedo #indice-derecho-second,
+.content-lottie-colocar-dedo #medio-derecho-second,
+.content-lottie-colocar-dedo #anular-derecho-second,
+.content-lottie-colocar-dedo #menique-derecho-second {
+  width: 650px;
+  height: 600px;
+}
+.content-lottie-colocar-dedo #pulgar-izquierdo-second,
+.content-lottie-colocar-dedo #indice-izquierdo-second,
+.content-lottie-colocar-dedo #medio-izquierdo-second,
+.content-lottie-colocar-dedo #anular-izquierdo-second,
+.content-lottie-colocar-dedo #menique-izquierdo-second {
+  width: 650px;
+  height: 600px;
+}
+
+/* ESANEAR EL DEDO */
+
+.content-lottie-escanear-dedo {
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+.content-lottie-escanear-dedo #escanear-pulgar-derecho,
+.content-lottie-escanear-dedo #escanear-indice-derecho,
+.content-lottie-escanear-dedo #escanear-medio-derecho,
+.content-lottie-escanear-dedo #escanear-anular-derecho,
+.content-lottie-escanear-dedo #escanear-menique-derecho {
+  width: 650px;
+  height: 600px;
+}
+
+.content-lottie-escanear-dedo #escanear-pulgar-izquierdo,
+.content-lottie-escanear-dedo #escanear-indice-izquierdo,
+.content-lottie-escanear-dedo #escanear-medio-izquierdo,
+.content-lottie-escanear-dedo #escanear-anular-izquierdo,
+.content-lottie-escanear-dedo #escanear-menique-izquierdo {
+  width: 650px;
+  height: 600px;
+}
+.content-lottie-escanear-dedo #escanear-pulgar-derecho-second,
+.content-lottie-escanear-dedo #escanear-indice-derecho-second,
+.content-lottie-escanear-dedo #escanear-medio-derecho-second,
+.content-lottie-escanear-dedo #escanear-anular-derecho-second,
+.content-lottie-escanear-dedo #escanear-menique-derecho-second {
+  width: 650px;
+  height: 600px;
+}
+
+.content-lottie-escanear-dedo #escanear-pulgar-izquierdo-second,
+.content-lottie-escanear-dedo #escanear-indice-izquierdo-second,
+.content-lottie-escanear-dedo #escanear-medio-izquierdo-second,
+.content-lottie-escanear-dedo #escanear-anular-izquierdo-second,
+.content-lottie-escanear-dedo #escanear-menique-izquierdo-second {
+  width: 650px;
+  height: 600px;
+}
+
+/* PROTECTOR DE PANTALLA */
+/* INSERTA TU TARJETA */
+#content-protector {
+  width: 1024px;
+  height: 768px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+}
+
+#content-protector #lottie2 {
+  width: 100%;
+  height: 100%;
+}
+
+/* PROTECTOR DE PANTALLA CROSS */
+/* INSERTA TU TARJETA */
+#content-protector-cross {
+  width: 1024px;
+  height: 768px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+}
+
+#content-protector-cross #lottie1 {
+  width: 100%;
+  height: 100%;
+}
+
+/* PROTECTOR DE PANTALLA NFC */
+/* INSERTA TU TARJETA */
+#content-protector-nfc {
+  width: 1024px;
+  height: 768px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+}
+
+#content-protector-nfc #lottie1 {
+  width: 100%;
+  height: 100%;
+}

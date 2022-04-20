@@ -1,0 +1,99 @@
+.btn {
+  font-size: 24px;
+  line-height: 1.33;
+  font-family: 'flexobold';
+  text-align: center;
+  height: 72px;
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 0.5px;
+  z-index: 999;
+  cursor: pointer;
+  box-shadow: 0 5px 5px -3px rgba(82, 112, 148, 0.2), 0 3px 14px 2px rgba(82, 112, 148, 0.12), 0 8px 10px 1px rgba(82, 112, 148, 0.14);
+}
+.btn .disabled{
+  background-color: #e5e7eb;
+  color: #868f9e;
+}
+.btn-primary{
+  background-color: #ff7800;
+  color:#ffffff;
+}
+.btn-light{
+  background-color: #ffffff;
+  color: #606c7f;
+  border: solid 2px #acb2bd;
+}
+.btn-secondary{
+  background-color: #001a54;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  box-shadow: none;
+}
+.btn-secondary-small{
+  height: 44px;
+  background-color: #002886;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  border-radius: 22px;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: none !important;
+}
+.btn-info{
+  background-color: #002473;
+  color: #ffffff;
+}
+.btn-info-small{
+  height: 44px;
+  background-color: #ffffff;
+  color: #606c7f;
+  border-radius: 22px;
+  border: solid 2px #acb2bd;
+  font-size: 16px;
+  box-shadow: none !important;
+}
+.btn-link{
+  color: #ff7800;
+  background: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  height: 100%;
+}
+.btn-link-blue{
+  background-color: transparent;
+  color: #ffffff;
+  box-shadow: none;
+}
+/*----------Actives----------*/
+@keyframes gradient {
+0% {
+  background: radial-gradient(circle at center, rgba( 255, 120 , 0, 0 ) 0%, #ffffff 0%, #ffffff 20%);
+}
+20% {
+  background: radial-gradient(circle at center, rgba( 255, 120 , 0, 0.3 ) 25%, #ffffff 20%, #ffffff 40%);
+}
+40% {
+  background: radial-gradient(circle at center, rgba( 255, 120 , 0, 0.5 ) 50%, #ffffff 40%, #ffffff 60%);
+}
+60% {
+  background: radial-gradient(circle at center, rgba( 255, 120 , 0, 0.8 ) 75%, #ffffff 60%, #ffffff 80%);
+}
+80% {
+  color: #ffffff !important;
+  background: radial-gradient(circle at center, #ff7800 100%, #fff 80%, #fff 40%);
+}
+}
+
+/* .btn:active {
+animation: gradient 100ms;
+animation-duration: 0.2s;
+animation-timing-function: ease-out forwards;
+background-color: #ff7800;
+color: #ffffff !important;
+box-shadow: none;
+transform: translateY(-1%);
+} */

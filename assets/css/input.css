@@ -1,0 +1,140 @@
+.input-border {
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border: solid 2px #ffffff;
+  background: transparent;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+}
+input::-ms-clear {
+  display: none;
+}
+input::-ms-reveal {
+  display: none;
+}
+/* input[type="password"] {
+    letter-spacing: 10px;
+} */
+
+.label-error {
+  position: absolute;
+  display: table-cell;
+  left: 24px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "flexodemi";
+  border-radius: 4px;
+  color: #ffffff;
+  bottom: -19px;
+}
+.label-error-monto {
+  position: absolute;
+  display: table-cell;
+  left: 24px;
+  font-size: 14px;
+  text-align: center;
+  top: 122px;
+  font-family: "flexobold";
+  border-radius: 4px;
+  color: #e30425;
+}
+.input-border-blue {
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border: solid 2px #002a8d;
+  background: #ffffff;
+  font-size: 48px;
+  color: #002a8d;
+  text-align: center;
+  font-family: "flexobold";
+}
+.input-border-blue::placeholder {
+  color: #7f95b1 !important;
+  font-weight: normal;
+  font-size: 24px !important;
+  font-family: "flexobold";
+  letter-spacing: normal;
+  vertical-align: middle;
+  transform: translate3d(0px, -7px, 0);
+}
+.input-border-blue::-webkit-input-placeholder {
+  color: #7f95b1 !important;
+  font-weight: normal;
+  font-size: 24px !important;
+  font-family: "flexobold";
+  letter-spacing: normal;
+  vertical-align: middle;
+}
+.input-border-blue:-ms-input-placeholder {
+  color: #7f95b1 !important;
+  font-weight: normal;
+  font-size: 24px !important;
+  font-family: "flexobold";
+  letter-spacing: normal;
+  vertical-align: middle;
+}
+.border-blue-light {
+  border: solid 2px #0a47f0 !important;
+}
+.input-line-white {
+  border: 0;
+  width: 100%;
+  background: transparent;
+}
+.input-border-placeholder {
+  color: #99a1ad !important;
+  font-weight: normal;
+  font-size: 24px !important;
+  font-family: "flexodemi";
+  letter-spacing: normal;
+  vertical-align: middle;
+  position: absolute;
+  left: 90px;
+  top: 47px;
+}
+
+.input-border-placeholder-type-2 {
+  color: #99a1ad !important;
+  font-weight: normal;
+  font-family: "flexodemi";
+  letter-spacing: normal;
+  vertical-align: middle;
+  position: absolute;
+}
+
+.placeholder-border-placeholder {
+  color: #99a1ad !important;
+  font-weight: normal;
+  font-size: 24px !important;
+  font-family: "flexodemi";
+  letter-spacing: normal;
+  vertical-align: middle;
+  position: absolute;
+  left: 166px;
+  top: 47px;
+}
+.input-digitos-placeholder {
+  color: #99a1ad !important;
+  font-weight: normal;
+  font-size: 24px !important;
+  font-family: "flexodemi";
+  letter-spacing: normal;
+  vertical-align: middle;
+  position: absolute;
+  left: 24px;
+  top: 26px;
+}
+.error {
+  border: solid 2px #e30425 !important;
+}
+.disabled {
+  color: #868f9e !important;
+  background-color: #e5e7eb !important;
+  border: solid 2px #e5e7eb !important;
+  border-left: 0;
+  box-shadow: 0 5px 5px -3px rgb(82 112 148 / 20%), 0 3px 14px 2px rgb(82 112 148 / 12%), 0 8px 10px 1px rgb(82 112 148 / 14%);
+}
+.input-no-border {
+  border: 0;
+}

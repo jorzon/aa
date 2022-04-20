@@ -1,0 +1,106 @@
+.card{
+  border-radius: 16px;
+}
+.card h3:after{
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #002a8d;
+  margin-top: 15px;
+  
+}
+.card .card-subTitle:after{
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #002a8d;
+  margin-top: 15px;
+}
+.card-big-light-blue{
+  background-color: #0a47f0;
+}
+.card-big-light-blue .line:after{
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+.card-medium-orange{
+  background-color: #ff7800;
+}
+.card-medium-orange .line:after{
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+.card-medium-blue .line:after{
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+.card-medium-blue{
+  background-color: #002a8d;
+}
+.card-big-white{
+  background-color: #ffffff;
+  border: solid 2px #d8dfea;
+  box-shadow: none !important;
+}
+
+/*----------Actives---------*/
+
+@keyframes gradient {
+0% {
+  background: radial-gradient(circle at center, rgba( 255, 120 , 0, 0 ) 0%, #ffffff 0%, #ffffff 20%);
+}
+20% {
+  background: radial-gradient(circle at center, rgba( 255, 120 , 0, 0.3 ) 25%, #ffffff 20%, #ffffff 40%);
+}
+40% {
+  background: radial-gradient(circle at center, rgba( 255, 120 , 0, 0.5 ) 50%, #ffffff 40%, #ffffff 60%);
+}
+60% {
+  background: radial-gradient(circle at center, rgba( 255, 120 , 0, 0.8 ) 75%, #ffffff 60%, #ffffff 80%);
+}
+80% {
+  color: #ffffff !important;
+  background: radial-gradient(circle at center, #ff7800 100%, #fff 80%, #fff 40%);
+}
+}
+
+.card:active {
+  animation: gradient 100ms;
+  animation-duration: 0.2s;
+animation-timing-function: ease-out forwards;
+background-color: #ff7800;
+color: #ffffff !important;
+box-shadow: 0 6px 6px -2px rgba(82, 112, 148, 0.5), 0 3px 14px 2px rgba(82, 112, 148, 0.2), 0 8px 10px 1px rgba(82, 112, 148, 0.2);
+transform: translateY(-1.5%);
+}
+
+.card:active .color-orange {
+color: #ffffff !important;
+}
+
+.card:active .color-primary-dark {
+color: #ffffff !important;
+}
+
+.card:active p:after {
+background-color: #ffffff !important;
+}

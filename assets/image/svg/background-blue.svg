@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="768" viewBox="0 0 1024 768">
+    <defs>
+        <linearGradient id="prefix__b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-opacity="0"/>
+            <stop offset="100%"/>
+        </linearGradient>
+        <path id="prefix__a" d="M0 1H1024V769H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 -1)">
+        <use fill="#002A8D" xlink:href="#prefix__a"/>
+        <path fill="#002473" d="M807.201 118.063c11.057 9.821 139.884 114.976 77.936 284.858-44.03 120.692-160.845 266.965-257.473 367.022l-23.335.12c-187.272.915-388.715.814-604.329-.303V.018L638.361 0c90.143 51.067 170.526 118.856 168.84 118.063z"/>
+        <path fill="url(#prefix__b)" d="M0 1H1024V769H0z" opacity=".4"/>
+    </g>
+</svg>

@@ -1,0 +1,74 @@
+.owl-stage {
+    height: 160px !important;
+}
+.owl-carousel {
+    width: 304px;
+}
+
+#demos .owl-carousel .item {
+    width: 304px;
+    height: 144px;
+    border-radius: 16px;
+    background-color: #0aa693;
+    position: relative;
+    box-shadow: 0 5px 5px -3px rgba(21, 28, 37, 0.2), 0 3px 14px 2px rgba(21, 28, 37, 0.12), 0 8px 10px 1px rgba(21, 28, 37, 0.14);
+    -webkit-box-shadow: 0 5px 5px -3px rgba(21, 28, 37, 0.2), 0 3px 14px 2px rgba(21, 28, 37, 0.12), 0 8px 10px 1px rgba(21, 28, 37, 0.14);
+}
+.div-estatico {
+    width: 304px;
+    height: 144px;
+    background: #0aa693;
+    border-radius: 16px;
+    position: absolute;
+    top: 18px;
+    transform: scale(0.9);
+}
+.owl-prev, .owl-next{
+    font: 0/0 a;
+    text-shadow: transparent;
+    color: transparent !important;
+    text-decoration: none !important;
+}
+.owl-line-top{
+    width: 304px;
+    height: 2px;
+    background-color: #264b78;
+    position: absolute;
+    top: -70px;
+}
+/* estilos button */
+.owl-theme .owl-nav {
+    margin-top: 10px !important;
+}
+.owl-next:before {
+    display: inline;
+    content: url(../image/svg/circle-right-white.svg);
+}
+.owl-prev:before {
+    display: inline;
+    content: url(../image/svg/circle-left-white.svg);
+}
+.owl-theme .owl-nav [class*="owl-"] {
+    background-color: transparent !important;
+    margin: 16px !important;
+}
+.owl-theme .owl-nav .disabled {
+    opacity: .4 !important;
+    cursor: default;
+}
+
+
+/* .owl-theme .scale-in-center h1 {
+    animation: 0.5s fadeIn both;
+}
+.owl-theme .scale-in-center p {
+    animation: 0.5s fadeIn both;
+}
+
+.owl-theme .scale-out-ver-top h1 {
+    animation: 1.2s fadeOut both;
+}
+.owl-theme .scale-out-ver-top p {
+    animation: 1.2s fadeOut both;
+} */
+

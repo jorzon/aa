@@ -1,0 +1,62 @@
+.tab button {
+    outline: none;
+    cursor: pointer;
+    height: 72px;
+    font-size: 24px;
+    font-family: "flexobold";
+}
+.tablinks-left {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: #ffffff;
+    color: #002a8d;
+    border: solid 2px #002a8d;
+    border-right: 0;
+    box-shadow: 0 2px 4px -1px rgba(82, 112, 148, 0.2), 0 1px 10px 0 rgba(82, 112, 148, 0.12), 0 4px 5px 0 rgba(82, 112, 148, 0.14);
+}
+.tablinks-right {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: #002a8d;
+    border: solid 2px #002a8d;
+    background-color: #ffffff;
+    border-left: 0;
+    box-shadow: 0 2px 4px -1px rgba(82, 112, 148, 0.2), 0 1px 10px 0 rgba(82, 112, 148, 0.12), 0 4px 5px 0 rgba(82, 112, 148, 0.14);
+}
+.tablinks-center {
+    color: #002a8d;
+    border: solid 2px #002a8d;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px -1px rgba(82, 112, 148, 0.2), 0 1px 10px 0 rgba(82, 112, 148, 0.12), 0 4px 5px 0 rgba(82, 112, 148, 0.14);
+}
+
+.tab .tablinks-left.active {
+    background-color: #002a8d;
+    color: #ffffff;
+    border: solid 2px #002a8d;
+    box-shadow: 0 2px 4px -1px rgba(82, 112, 148, 0.2), 0 1px 10px 0 rgba(82, 112, 148, 0.12), 0 4px 5px 0 rgba(82, 112, 148, 0.14);
+}
+.tab .tablinks-right.active {
+    background-color: #002a8d;
+    color: #ffffff;
+    border: solid 2px #002a8d;
+    box-shadow: 0 2px 4px -1px rgba(82, 112, 148, 0.2), 0 1px 10px 0 rgba(82, 112, 148, 0.12), 0 4px 5px 0 rgba(82, 112, 148, 0.14);
+}
+.tab .tablinks-center.active {
+    background-color: #002a8d;
+    color: #ffffff;
+    border: solid 2px #002a8d;
+    box-shadow: 0 2px 4px -1px rgba(82, 112, 148, 0.2), 0 1px 10px 0 rgba(82, 112, 148, 0.12), 0 4px 5px 0 rgba(82, 112, 148, 0.14);
+}
+.tabcontent {
+    display: none;
+}
+.disabled {
+    color: #868f9e !important;
+    background-color: #e5e7eb !important;
+    border: solid 2px #e5e7eb !important;
+    border-left: 0;
+}
+
+/* tabs pure css */
